@@ -65,3 +65,13 @@
         - Undoes all SQL statements executed since the last commit.
 
         - Useful when an error occurs in the transaction to avoid partial updates.
+
+## Spring Boot JDBC
+
+-   _Why is Spring JDBC?_
+
+-   Spring JDBC Framework takes care of all the low-level details starting from opening the connection, preparing and executing the SQL statement, processing exceptions, handling transactions, and finally closing the connection.
+
+-   _JdbcTemplate_
+
+    -   JdbcTemplate is a core class in Spring JDBC that simplifies database access. It helps to avoid boilerplate code like creating connections, preparing statements, handling exceptions, and closing resources.

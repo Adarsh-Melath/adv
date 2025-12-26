@@ -60,8 +60,8 @@
 
         - Use this after successful execution of all statements in a transaction.
 
--         3. rollback()
+-   3. rollback()
 
-            - Undoes all SQL statements executed since the last commit.
+        - Undoes all SQL statements executed since the last commit.
 
-            - Useful when an error occurs in the transaction to avoid partial updates.
+        - Useful when an error occurs in the transaction to avoid partial updates.
